@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resonance Compare</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body class="bg-gradient-to-b from-[#F5F5F5] to-[#D2CDC6] overflow-x-hidden">
+
+  <!-- Header -->
+  <header class="h-20 w-full flex justify-between items-center px-6">
+    <!-- Logo -->
+    <div class="w-40">
+      <img src="./img/Logo.png" alt="Logo" class="h-12 cursor-pointer">
+    </div>
+
+    <!-- Links (medium and up) -->
+    <nav class="hidden md:flex space-x-8 text-sm items-center">
+      <a href="#" class="hover:text-gray-600">Home</a>
+      <a href="#" class="hover:text-gray-600">Tech Specs</a>
+      <a href="#" class="rounded-full px-4 py-2 bg-gradient-to-b from-[#52483E] to-[#8B8782] text-white">
+        Compare
+      </a>
+    </nav>
+
+    <!-- Hamburger (small screens only) -->
+    <div class="md:hidden">
+      <i class="fa-solid fa-bars text-2xl cursor-pointer"></i>
+    </div>
+  </header>
+
+  <!-- Title -->
+  <div class="text-center my-10 px-4">
+    <h1 class="text-4xl md:text-6xl font-bold text-[#52483E]">Compare Resonance Models</h1>
+    <p class="text-xl md:text-2xl text-gray-600 font-semibold mt-2">
+      Get help choosing. Chat with a Specialist
+    </p>
+  </div>
+
+  <!-- Cards -->
+  <div class="grid grid-cols-2 md:grid-cols-2 gap-6 w-full max-w-6xl mx-auto p-6">
+
+    <!-- Aura Pro II Card -->
+    <div class="card bg-white rounded-2xl shadow-md p-6 flex flex-col items-center">
+      <div class="bg-gray-100 p-6 rounded-2xl mb-4 flex items-center justify-center">
+        <img src="img/headphones.png" alt="Aura Pro II" class="w-40">
+      </div>
+      <h2 class="text-2xl font-bold text-gray-800 mb-2">Aura Pro II</h2>
+      <p class="text-gray-600 mb-4">Starting at $320</p>
+      <button class="bg-gradient-to-b from-[#52483E] to-[#8B8782] text-white px-5 py-2 rounded-full mb-6">
+        Buy Now
+      </button>
+
+      <ul class="space-y-4 text-gray-700 w-full flex flex-col items-center text-center">
+        <li class="flex flex-col items-center"><img src="img/Cpu.png" class="mb-1"> R1 Chip</li>
+        <li class="flex flex-col items-center"><img src="img/SpeakerSimpleSlash.png" class="mb-1"> More Active Noise Cancellation</li>
+        <li class="flex flex-col items-center"><img src="img/UserSound.png" class="mb-1"> Personalized Spatial Audio</li>
+        <li class="flex flex-col items-center"><img src="img/Equalizer.png" class="mb-1"> Lossless Audio</li>
+        <li>— <br> None</li>
+        <li>— <br> None</li>
+        <li class="flex flex-col items-center"><img src="img/BatteryCharging.png" class="mb-1"> Up to 17 hours of listening</li>
+        <li>— <br> None</li>
+        <li class="flex flex-col items-center"><img src="img/Microphone (1).png" class="mb-1"> 5 microphones total</li>
+      </ul>
+    </div>
+
+    <!-- Flow II Card -->
+    <div class="card bg-white rounded-2xl shadow-md p-6 flex flex-col items-center">
+      <div class="bg-gray-100 p-6 rounded-2xl mb-4 flex items-center justify-center">
+        <img src="img/headphones2.png" alt="Flow II" class="w-40">
+      </div>
+      <h2 class="text-2xl font-bold text-gray-800 mb-2">Flow II</h2>
+      <p class="text-gray-600 mb-4">Starting at $180</p>
+      <button class="bg-gradient-to-b from-[#52483E] to-[#8B8782] text-white px-5 py-2 rounded-full mb-6">
+        Buy Now
+      </button>
+
+      <ul class="space-y-4 text-gray-700 w-full flex flex-col items-center text-center">
+        <li class="flex flex-col items-center"><img src="img/Cpu.png" class="mb-1"> R2 Chip</li>
+        <li class="flex flex-col items-center"><img src="img/SpeakerSimpleSlash.png" class="mb-1"> Active Noise Cancellation</li>
+        <li class="flex flex-col items-center"><img src="img/UserSound.png" class="mb-1"> Personalized Spatial Audio</li>
+        <li>— <br> None</li>
+        <li class="flex flex-col items-center"><img src="img/Ear.png" class="mb-1"> Hearing Test and Hearing Protection</li>
+        <li class="flex flex-col items-center"><img src="img/HandTap.png" class="mb-1"> Touch sensor</li>
+        <li class="flex flex-col items-center"><img src="img/BatteryCharging.png" class="mb-1"> Up to 6 hours of listening</li>
+        <li class="flex flex-col items-center"><img src="img/Drop.png" class="mb-1"> Water resistant</li>
+        <li class="flex flex-col items-center"><img src="img/Microphone (1).png" class="mb-1"> Dual beamforming microphones</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Extra Section -->
+  <div class="text-center mt-20 px-4">
+    <h1 class="text-3xl md:text-4xl font-bold text-[#52483E]">Sound. Presence. Purpose.</h1>
+    <p class="mt-4 text-lg text-[#52483E] font-medium">
+      Focused on crafting immersive audio experiences. <br>
+      We believe sound should not just be heard — it should move you.
+    </p>
+  </div>
+
+  <!-- Buttons -->
+  <div class="flex flex-wrap justify-center mt-8 gap-4 px-4">
+    <button class="border-2 border-black bg-white text-gray-700 px-5 py-2 rounded-full">Aura Pro II</button>
+    <button class="border-2 border-black bg-white text-gray-700 px-5 py-2 rounded-full">Flow II</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t-2 border-gray-800 mt-10 py-6">
+    <div class="flex flex-col md:flex-row justify-between items-center px-6 space-y-4 md:space-y-0">
+      <img src="img/Logo.png" alt="Logo" class="h-8">
+      <div class="flex flex-wrap gap-4 text-gray-700 items-center justify-center">
+        <p class="text-gray-600">© 2025 Resonance. All rights reserved.</p>
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-meta"></i>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
