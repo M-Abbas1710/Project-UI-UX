@@ -7,36 +7,157 @@
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body class="bg-gradient-to-b from-[#D2CDC6] to-[#F5F5F5] bg-cover bg-no-repeat">
     <header class="h-23 w-full flex justify-between overflow-hidden">
         <div class="h-full w-20/100 flex justify-center items-center ">
             <img src="./images/Logo.png" alt="">
         </div>
         <div class=" h-full w-35/100 flex justify-end ">
-        <nav class="h-full w-full hidden md:flex md:h-full md:w-full" >
-            <ul class="h-full w-full flex justify-end  items-center text-base lg:text-lg  lg:font-semibold ">
-                <li><a href="" class="mx-5">Home</a></li>
-                <li><a href="" class="mx-5">Tech Specs</a></li>
-                <div><a href=""
-                        class="mx-5 border-t-1 border-s-1 border-e-1 border-black  rounded-4xl px-6 py-2 bg-gradient-to-b from-[#52483E] to-[#8B8782] text-white">Compare</a>
+            <nav class="h-full w-full hidden md:flex md:h-full md:w-full">
+                <ul class="h-full w-full flex justify-end  items-center text-base lg:text-lg  lg:font-semibold ">
+                    <li><a href="" class="mx-5">Home</a></li>
+                    <li><a href="" class="mx-5">Tech Specs</a></li>
+                    <div><a href=""
+                            class="mx-5 border-t-1 border-s-1 border-e-1 border-black  rounded-4xl px-6 py-2 bg-gradient-to-b from-[#52483E] to-[#8B8782] text-white">Compare</a>
                     </div>
                 </ul>
             </nav>
-                <div class="   flex justify-end items-center mx-3 md:mx-2 "><button class="block md:hidden text-2xl">☰</button></div>
-            </div>
+            <div class="   flex justify-end items-center mx-3 md:mx-2 "><button
+                    class="block md:hidden text-2xl">☰</button></div>
+        </div>
     </header>
-    <section class="w-full h-172 md:h-211  flex justify-center items-center ">
-        <div class=" hidden md:flex md:w-250 md:h-250  md:absolute md:mb-20"><img src="./images/3f3c500b27f8b02712e692d6a1e0682e09785e0e.png" alt=""></div>
-        <div class=" md:hidden  w-150 h-150 absolute top-50"><img src="./images/3f3c500b27f8b02712e692d6a1e0682e09785e0e.png" alt=""></div>
-     <div class="mb-130 relative md:static w-full h-50 md:h-full   flex flex-col justify-center items-center md:mb-80" >
-        <div class="z-10  absolute bottom-20 md:static"><h1 class="text-[70px]  md:mt-10  leading-20 text-center md:text-[180px] md:leading-43 font-poppins  font-semibold text-[#52483E]" >Resonance</h1></div>
-        <div class=" absolute top-13  md:static"><h1 class="text-[70px]  text-center  md:text-[180px] leading-43 font-poppins  font-semibold bg-gradient-to-t from-[#DACCBC] to-[#AFA497] bg-clip-text text-transparent">Aura Pro II</h1></div>
-     </div>
+    <section class="w-full h-211  flex justify-center items-center ">
+        <div class=" hidden md:flex md:w-250 md:h-250  md:absolute md:mb-20"><img
+                src="./images/3f3c500b27f8b02712e692d6a1e0682e09785e0e.png" alt=""></div>
+        <div class=" md:hidden mt-55 w-150 h-150 absolute mb-20"><img
+                src="./images/3f3c500b27f8b02712e692d6a1e0682e09785e0e.png" alt=""></div>
+        <div
+            class="mb-140 relative md:static w-full h-50 md:h-full   flex flex-col justify-center items-center md:mb-80">
+            <div class="z-10  absolute bottom-20 md:static">
+                <h1
+                    class="text-[90px] mr-4 md:mt-10  leading-20 text-center md:text-[180px] md:leading-43 text-poppins font-semibold text-[#52483E]">
+                    Resonance</h1>
+            </div>
+            <div class=" absolute top-18  md:static">
+                <h1
+                    class="text-[80px]  text-center  md:text-[180px] leading-43 text-poppins font-semibold bg-gradient-to-t from-[#DACCBC] to-[#AFA497] bg-clip-text text-transparent">
+                    Aura Pro II</h1>
+            </div>
+        </div>
     </section>
 
-    <section class="w-full h-283 border border-red-500 border-3 ">
-        <div class="h-34 w-215 border border-blue-500 border-3  mx-auto mt-10"><h1 class="text-5xl">Your Style. Your Sound</h1></div>
-    </section>
+    <!-- <section class="w-full h-283  py-20 gap-[24px]">
+        <div class="w-215 h-34 flex flex-col gap-4  mx-auto ">
+            <div class="text-6xl text-center text-poppins font-semibold text-[#52483E]"><h1>Your Style. Your Sound.</h1></div>
+            <div class="text-2xl text-center text-poppins font-normal text-[#8B8782]"><p>Studio-grade acoustics that dissolve distractions and awaken clarity.</p></div>
+        </div>
+       
+        <div class="w-full h-165 flex justify-between items-center   ">
+          <div class="w-[420px] h-[420px]  blur-md"><img src="./images/headphones(yellow).png" class="h-full w-full" alt=""></div>
+          <div class="w-165 h-165 "><img src="./images/headphones(green).png" class="h-full w-full" alt=""></div>
+          <div class="w-[420px] h-[420px]  blur-md"><img src="./images/headphones(red).png" class="h-full w-full" alt=""></div>
+        </div>
+        
+        <div class="w-full h-32 flex flex-col gap-8 ">
+            <div class="w-65 h-15  mx-auto flex justify-between items-center ">
+               <div class="h-full w-15  rounded-full bg-[#D8B74B]"></div> 
+               <div class="h-full w-15  rounded-full bg-[#94915B] border border-2 border-[#52483E]"></div> 
+               <div class="h-full w-15  rounded-full bg-[#883D39]"></div> 
+            </div>
+            <div class="w-full text-poppins font-normal text-2xl text-center text-[#8B8782]">Choose a color that fits your flow.</div>
+        </div>
+
+    </section> -->
+  
+<section class="w-full h-180 md:h-220 gap-[24px]">
+  <!-- Heading -->
+  <div class="w-full flex flex-col gap-4 mx-auto mb-12">
+    <h1 class="text-5xl md:text-6xl text-center font-semibold text-[#52483E]">Your Style. Your Sound.</h1>
+    <p class="text-lg md:text-2xl text-center font-normal text-[#8B8782]">
+      Studio-grade acoustics that dissolve distractions and awaken clarity.
+    </p>
+  </div>
+
+  <!-- Carousel -->
+  <div id="carousel" class="w-full flex justify-center items-center relative gap-4">
+    <!-- Yellow -->
+    <img src="./images/headphones(yellow).png" alt="Yellow"
+         class="carousel-item ml-25 transition-all duration-500 w-[320px] h-[320px] md:w-105 md:h-105 blur-md opacity-70 scale-75 hidden md:block"
+         data-index="0">
+
+    <!-- Green -->
+    <img src="./images/headphones(green).png" alt="Green"
+         class="carousel-item  transition-all duration-500 w-[320px] h-[320px] md:w-155 md:h-135 scale-100 z-10 opacity-100"
+         data-index="1">
+
+    <!-- Red -->
+    <img src="./images/headphones(red).png" alt="Red"
+         class="carousel-item mr-25 transition-all duration-500 w-[320px] h-[320px] md:w-105 md:h-105 blur-md opacity-70 scale-75 hidden md:block"
+         data-index="2">
+  </div>
+
+  <!-- Dots -->
+  <div class="w-full flex flex-col gap-8 mt-8">
+    <div class="flex justify-center items-center gap-6">
+      <div class="dot h-6 w-6 md:h-8 md:w-8 rounded-full bg-[#D8B74B] cursor-pointer" data-index="0"></div>
+      <div class="dot h-6 w-6 md:h-8 md:w-8 rounded-full bg-[#94915B] cursor-pointer border-2 border-[#52483E]" data-index="1"></div>
+      <div class="dot h-6 w-6 md:h-8 md:w-8 rounded-full bg-[#883D39] cursor-pointer" data-index="2"></div>
+    </div>
+    <p class="text-lg md:text-2xl text-center font-normal text-[#8B8782]">
+      Choose a color that fits your flow.
+    </p>
+  </div>
+</section>
+
+<script>
+  const items = document.querySelectorAll(".carousel-item");
+  const dots = document.querySelectorAll(".dot");
+  let activeIndex = 1; // middle on desktop, green on mobile
+
+  function updateCarousel(index) {
+    activeIndex = index;
+
+    items.forEach((item, i) => {
+      item.classList.remove("scale-100", "z-10", "blur-md", "opacity-70", "scale-75", "opacity-100");
+
+      // Desktop: show all 3
+      if (window.innerWidth >= 768) {
+        if (i === index) {
+          item.classList.add("scale-100", "z-10", "opacity-100");
+        } else {
+          item.classList.add("scale-75", "blur-md", "opacity-70");
+        }
+        item.classList.remove("hidden");
+      } else {
+        // Mobile: only active item is visible
+        if (i === index) {
+          item.classList.add("scale-100", "z-10", "opacity-100", "block");
+          item.classList.remove("hidden");
+        } else {
+          item.classList.add("hidden");
+        }
+      }
+    });
+
+    dots.forEach(d => d.classList.remove("border-2", "border-[#52483E]"));
+    dots[index].classList.add("border-2", "border-[#52483E]");
+  }
+
+  // Dot click event
+  dots.forEach(dot => {
+    dot.addEventListener("click", () => {
+      updateCarousel(parseInt(dot.dataset.index));
+    });
+  });
+
+  // Recalculate when window resizes (desktop ↔ mobile)
+  window.addEventListener("resize", () => updateCarousel(activeIndex));
+
+  // Initialize
+  updateCarousel(activeIndex);
+</script>
+
 
 </body>
 
