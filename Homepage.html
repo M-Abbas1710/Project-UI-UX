@@ -69,96 +69,88 @@
         </div>
 
     </section> -->
-  
-<section class="w-full h-180 md:h-220 gap-[24px]">
-  <!-- Heading -->
-  <div class="w-full flex flex-col gap-4 mx-auto mb-12">
-    <h1 class="text-5xl md:text-6xl text-center font-semibold text-[#52483E]">Your Style. Your Sound.</h1>
-    <p class="text-lg md:text-2xl text-center font-normal text-[#8B8782]">
-      Studio-grade acoustics that dissolve distractions and awaken clarity.
-    </p>
-  </div>
 
-  <!-- Carousel -->
-  <div id="carousel" class="w-full flex justify-center items-center relative gap-4">
-    <!-- Yellow -->
-    <img src="./images/headphones(yellow).png" alt="Yellow"
-         class="carousel-item ml-25 transition-all duration-500 w-[320px] h-[320px] md:w-105 md:h-105 blur-md opacity-70 scale-75 hidden md:block"
-         data-index="0">
+    <section class="w-full h-180 md:h-220 gap-[24px]">
+        <!-- Heading -->
+        <div class="w-full flex flex-col gap-4 mx-auto mb-12">
+            <h1 class="text-5xl md:text-6xl text-center font-semibold text-[#52483E]">Your Style. Your Sound.</h1>
+            <p class="text-lg md:text-2xl text-center font-normal text-[#8B8782]">
+                Studio-grade acoustics that dissolve distractions and awaken clarity.
+            </p>
+        </div>
 
-    <!-- Green -->
-    <img src="./images/headphones(green).png" alt="Green"
-         class="carousel-item  transition-all duration-500 w-[320px] h-[320px] md:w-155 md:h-135 scale-100 z-10 opacity-100"
-         data-index="1">
+        <!-- Carousel -->
+        <div id="carousel" class="w-full flex justify-center items-center relative gap-4">
+            <!-- Yellow -->
+            <img src="./images/headphones(yellow).png" alt="Yellow"
+                class="carousel-item ml-25 transition-all duration-500 w-[320px] h-[320px] md:w-105 md:h-105 blur-md opacity-70 scale-75 hidden md:block"
+                data-index="0">
 
-    <!-- Red -->
-    <img src="./images/headphones(red).png" alt="Red"
-         class="carousel-item mr-25 transition-all duration-500 w-[320px] h-[320px] md:w-105 md:h-105 blur-md opacity-70 scale-75 hidden md:block"
-         data-index="2">
-  </div>
+            <!-- Green -->
+            <img src="./images/headphones(green).png" alt="Green"
+                class="carousel-item  transition-all duration-500 w-[320px] h-[320px] md:w-155 md:h-135 scale-100 z-10 opacity-100"
+                data-index="1">
 
-  <!-- Dots -->
-  <div class="w-full flex flex-col gap-8 mt-8">
-    <div class="flex justify-center items-center gap-6">
-      <div class="dot h-6 w-6 md:h-8 md:w-8 rounded-full bg-[#D8B74B] cursor-pointer" data-index="0"></div>
-      <div class="dot h-6 w-6 md:h-8 md:w-8 rounded-full bg-[#94915B] cursor-pointer border-2 border-[#52483E]" data-index="1"></div>
-      <div class="dot h-6 w-6 md:h-8 md:w-8 rounded-full bg-[#883D39] cursor-pointer" data-index="2"></div>
-    </div>
-    <p class="text-lg md:text-2xl text-center font-normal text-[#8B8782]">
-      Choose a color that fits your flow.
-    </p>
-  </div>
-</section>
+            <!-- Red -->
+            <img src="./images/headphones(red).png" alt="Red"
+                class="carousel-item mr-25 transition-all duration-500 w-[320px] h-[320px] md:w-105 md:h-105 blur-md opacity-70 scale-75 hidden md:block"
+                data-index="2">
+        </div>
 
-<script>
-  const items = document.querySelectorAll(".carousel-item");
-  const dots = document.querySelectorAll(".dot");
-  let activeIndex = 1; // middle on desktop, green on mobile
+        <!-- Dots -->
+        <div class="w-full flex flex-col gap-8 mt-8">
+            <div class="flex justify-center items-center gap-6">
+                <div class="dot h-6 w-6 md:h-8 md:w-8 rounded-full bg-[#D8B74B] cursor-pointer" data-index="0"></div>
+                <div class="dot h-6 w-6 md:h-8 md:w-8 rounded-full bg-[#94915B] cursor-pointer border-2 border-[#52483E]"
+                    data-index="1"></div>
+                <div class="dot h-6 w-6 md:h-8 md:w-8 rounded-full bg-[#883D39] cursor-pointer" data-index="2"></div>
+            </div>
+            <p class="text-lg md:text-2xl text-center font-normal text-[#8B8782]">
+                Choose a color that fits your flow.
+            </p>
+        </div>
+    </section>
 
-  function updateCarousel(index) {
-    activeIndex = index;
+    <section class=" h-160 p-20 flex  overflow-hidden gap-6 ">
+        <div 
+            class=" h-120 w-11/12 rounded-3xl flex-shrink-0  flex bg-gradient-to-b from-[#D2CDC6] to-[#F8BF93] overflow-hidden">
+            <div class="w-50/100 h-full  flex justify-center items-center ">
+                <h1 class="w-[80%] text-poppins text-3xl font-medium ">Deep lows. Lush mids. Airy highs. All perfectly
+                    in balance.</h1>
+            </div>
 
-    items.forEach((item, i) => {
-      item.classList.remove("scale-100", "z-10", "blur-md", "opacity-70", "scale-75", "opacity-100");
+            <div class="w-50/100 h-full   relative ">
+                <img class="w-full h-full scale-120 object-cover absolute -top-5"
+                    src="./images/39e9af58ea397dcaf5dbb04f17032b3a9fc87425.png" alt="">
+            </div>
+        </div>
+       <div
+            class="w-270 h-120 rounded-3xl flex-shrink-0  flex bg-gradient-to-b from-[#D2CDC6] to-[#F8BF93] overflow-hidden">
+            <div class="w-50/100 h-full  flex justify-center items-center ">
+                <h1 class="w-[80%] text-poppins text-3xl font-medium ">Deep lows. Lush mids. Airy highs. All perfectly
+                    in balance.</h1>
+            </div>
 
-      // Desktop: show all 3
-      if (window.innerWidth >= 768) {
-        if (i === index) {
-          item.classList.add("scale-100", "z-10", "opacity-100");
-        } else {
-          item.classList.add("scale-75", "blur-md", "opacity-70");
-        }
-        item.classList.remove("hidden");
-      } else {
-        // Mobile: only active item is visible
-        if (i === index) {
-          item.classList.add("scale-100", "z-10", "opacity-100", "block");
-          item.classList.remove("hidden");
-        } else {
-          item.classList.add("hidden");
-        }
-      }
-    });
+            <div class="w-50/100 h-full   relative ">
+                <img class="w-full h-full scale-120 object-cover absolute -top-5"
+                    src="./images/39e9af58ea397dcaf5dbb04f17032b3a9fc87425.png" alt="">
+            </div>
+        </div> 
+          <div
+            class="w-270 h-120 rounded-3xl flex-shrink-0  flex bg-gradient-to-b from-[#D2CDC6] to-[#F8BF93] overflow-hidden">
+            <div class="w-50/100 h-full  flex justify-center items-center ">
+                <h1 class="w-[80%] text-poppins text-3xl font-medium ">Deep lows. Lush mids. Airy highs. All perfectly
+                    in balance.</h1>
+            </div>
 
-    dots.forEach(d => d.classList.remove("border-2", "border-[#52483E]"));
-    dots[index].classList.add("border-2", "border-[#52483E]");
-  }
+            <div class="w-50/100 h-full   relative ">
+                <img class="w-full h-full scale-120 object-cover absolute -top-5"
+                    src="./images/39e9af58ea397dcaf5dbb04f17032b3a9fc87425.png" alt="">
+            </div>
+        </div> 
+    </section>
 
-  // Dot click event
-  dots.forEach(dot => {
-    dot.addEventListener("click", () => {
-      updateCarousel(parseInt(dot.dataset.index));
-    });
-  });
-
-  // Recalculate when window resizes (desktop ↔ mobile)
-  window.addEventListener("resize", () => updateCarousel(activeIndex));
-
-  // Initialize
-  updateCarousel(activeIndex);
-</script>
-
-
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
