@@ -1,0 +1,8 @@
+ @keyframes scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Move half the track (since we duplicated items) */
+  }
+  .animate-scroll {
+    animation: scroll 15s linear infinite;
+    display: flex;
+  }
