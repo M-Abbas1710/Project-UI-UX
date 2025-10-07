@@ -6,3 +6,9 @@
     animation: scroll 15s linear infinite;
     display: flex;
   }
+  .gradient-border {
+  border: 1px solid transparent;
+  border-image-source: linear-gradient(180deg, #8B8782 0%, #D2CDC6 100%);
+  border-image-slice: 1;
+  /* border-radius: 24px; */
+}
